@@ -2,7 +2,7 @@
 
 An advanced, high-traffic e-commerce browsing interface featuring instant state feedback and server-side combinatorial filtering. Built as a part of a 90-minute coding assessment.
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./Screenshot.png)
 
 ## 🚀 Features
 
