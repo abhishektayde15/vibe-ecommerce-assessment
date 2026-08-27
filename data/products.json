@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sony WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "price": 348.00,
+    "rating": 5,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Headphones"
+  },
+  {
+    "id": 2,
+    "name": "Apple MacBook Air M2",
+    "category": "Electronics",
+    "price": 1099.00,
+    "rating": 5,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=MacBook"
+  },
+  {
+    "id": 3,
+    "name": "Samsung 4K Smart TV",
+    "category": "Electronics",
+    "price": 499.99,
+    "rating": 4,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Smart+TV"
+  },
+  {
+    "id": 4,
+    "name": "Men's Classic T-Shirt",
+    "category": "Apparel",
+    "price": 19.99,
+    "rating": 4,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=T-Shirt"
+  },
+  {
+    "id": 5,
+    "name": "Levi's 501 Original Jeans",
+    "category": "Apparel",
+    "price": 59.50,
+    "rating": 5,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Jeans"
+  },
+  {
+    "id": 6,
+    "name": "Nike Air Force 1",
+    "category": "Footwear",
+    "price": 110.00,
+    "rating": 5,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Nike+Air"
+  },
+  {
+    "id": 7,
+    "name": "Adidas Ultraboost",
+    "category": "Footwear",
+    "price": 180.00,
+    "rating": 4,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Ultraboost"
+  },
+  {
+    "id": 8,
+    "name": "Puma Running Shoes",
+    "category": "Footwear",
+    "price": 65.00,
+    "rating": 3,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Puma+Shoes"
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Portable Speaker",
+    "category": "Electronics",
+    "price": 45.00,
+    "rating": 3,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Speaker"
+  },
+  {
+    "id": 10,
+    "name": "Women's Winter Jacket",
+    "category": "Apparel",
+    "price": 120.00,
+    "rating": 4,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Jacket"
+  },
+  {
+    "id": 11,
+    "name": "Smart Watch Series 8",
+    "category": "Electronics",
+    "price": 399.00,
+    "rating": 5,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Smart+Watch"
+  },
+  {
+    "id": 12,
+    "name": "Basic Cotton Socks (6-Pack)",
+    "category": "Apparel",
+    "price": 14.99,
+    "rating": 2,
+    "image": "https://placehold.co/400x300/e2e8f0/1e293b?text=Socks"
+  }
+]

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeStore - Next Gen E-Commerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo-icon"></div>
+            <div class="logo">VibeStore.</div>
+        </div>
+        <div class="sort-container">
+            <label for="sort_by">Sort By:</label>
+            <select id="sort_by" name="sort_by">
+                <option value="">Recommended</option>
+                <option value="price_asc">Price: Low to High</option>
+                <option value="price_desc">Price: High to Low</option>
+                <option value="rating_desc">Top Rated First</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+        <div class="hero-content">
+            <h1>Discover Your Vibe.</h1>
+            <p>Explore our curated collection of premium electronics, apparel, and footwear.</p>
+        </div>
+    </div>
+
+    <main class="main-layout">
+        
+        <!-- Interactive Sidebar Layout -->
+        <aside class="sidebar">
+            <div class="filter-header">
+                <h2>Filters</h2>
+                <button id="reset_filters" class="reset-icon-btn" title="Reset Filters">↺</button>
+            </div>
+
+            <div class="filter-group">
+                <h3>Categories</h3>
+                <div class="checkbox-list">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="Electronics">
+                        <span class="custom-checkbox"></span>
+                        Electronics
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="Apparel">
+                        <span class="custom-checkbox"></span>
+                        Apparel
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="Footwear">
+                        <span class="custom-checkbox"></span>
+                        Footwear
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <div class="price-inputs">
+                    <div class="input-wrap">
+                        <span>$</span>
+                        <input type="number" id="min_price" placeholder="Min" min="0">
+                    </div>
+                    <span class="separator">-</span>
+                    <div class="input-wrap">
+                        <span>$</span>
+                        <input type="number" id="max_price" placeholder="Max" min="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Minimum Rating</h3>
+                <div class="radio-list">
+                    <label class="radio-label">
+                        <input type="radio" name="min_star" value="4">
+                        <span class="custom-radio"></span>
+                        <div class="stars-display">★★★★<span>★</span></div>
+                        & Up
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="min_star" value="3">
+                        <span class="custom-radio"></span>
+                        <div class="stars-display">★★★<span>★★</span></div>
+                        & Up
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="min_star" value="2">
+                        <span class="custom-radio"></span>
+                        <div class="stars-display">★★<span>★★★</span></div>
+                        & Up
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="min_star" value="1" checked>
+                        <span class="custom-radio"></span>
+                        <div class="stars-display">★<span>★★★★</span></div>
+                        & Up
+                    </label>
+                </div>
+            </div>
+            
+        </aside>
+
+        <!-- Dynamic Product Inventory Grid -->
+        <section class="product-area">
+            <div class="results-header">
+                <h2 id="results_count">Showing all products</h2>
+            </div>
+
+            <div id="empty_state" class="empty-state hidden">
+                <div class="empty-icon">🔍</div>
+                <h2>No matches found</h2>
+                <p>We couldn't find anything matching those filters. Try adjusting them to find what you're looking for.</p>
+                <button class="reset-btn-large" onclick="document.getElementById('reset_filters').click()">Clear Filters</button>
+            </div>
+            
+            <div id="product_grid" class="grid">
+                <!-- Product cards or skeletons injected by JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
